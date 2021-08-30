@@ -595,3 +595,7 @@ h6,
     min-height:424px;
     max-height:424px;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+}

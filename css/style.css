@@ -575,4 +575,23 @@ h6,
     color: #1594db;
 }
 
+.dropdown-item:hover {
+    color: #fff;
+    background: #272c61;
+}
 
+.navbar {
+    background-color: #fff;
+}
+
+.nav-link.active {
+    color:#000
+}
+
+.card-body {
+    flex:0 0 auto;
+    padding:1rem 1rem;
+    height:424px;
+    min-height:424px;
+    max-height:424px;
+}

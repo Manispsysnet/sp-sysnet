@@ -739,3 +739,10 @@ h6,
     border-bottom: 5px solid #2196F3;
 }
 
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    width: 100px;
+}

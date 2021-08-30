@@ -123,6 +123,14 @@ h6,
     text-align: center;
 }
 
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    width: 205px;
+    background-color: #272c61;
+    color: #fff;
+}
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
@@ -582,6 +590,7 @@ h6,
 .dropdown-item:hover {
     color: #fff;
     background: #272c61;
+    border: 1px solid grey;
 }
 
 .navbar {
@@ -740,11 +749,5 @@ h6,
 }
 
 
-.title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 0.5rem;
-    width: 200px;
-    background-color: #272c61;
-    color: #fff;
-}
+
+

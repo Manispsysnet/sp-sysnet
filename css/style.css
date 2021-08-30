@@ -160,7 +160,7 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
-        background: #000;
+        background: #fff;
     }
 
     .navbar-dark .navbar-nav .nav-link,

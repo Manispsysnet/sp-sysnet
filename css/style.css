@@ -575,6 +575,10 @@ h6,
     color: #1594db;
 }
 
+.dropdown-item {
+    padding: 1rem 1rem;
+}
+
 .dropdown-item:hover {
     color: #fff;
     background: #272c61;

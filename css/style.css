@@ -743,6 +743,8 @@ h6,
 .title {
     font-size: 1.2rem;
     font-weight: bold;
-    padding-left: 1rem;
-    width: 100px;
+    padding: 0.5rem;
+    width: 200px;
+    background-color: #272c61;
+    color: #fff;
 }

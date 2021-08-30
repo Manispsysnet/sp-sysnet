@@ -149,7 +149,7 @@ h6,
 }
 
 .navbar-dark .navbar-brand h1 {
-    color: #FFFFFF;
+    color: #000;
 }
 
 .navbar-dark .navbar-toggler {
@@ -172,7 +172,7 @@ h6,
 
     .navbar-dark .navbar-brand h1 {
         /* color: var(--primary); */
-        color: #272C61;
+        color: #272C61 !important;
     }
 }
 
@@ -585,7 +585,7 @@ h6,
 }
 
 .nav-link.active {
-    color:#000
+    color:#000;
 }
 
 .card-body {
@@ -599,3 +599,9 @@ h6,
 .navbar-dark .navbar-nav .nav-link {
     color: #000;
 }
+
+.nav-link.active {
+    color:#272c61;
+}
+
+

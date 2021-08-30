@@ -149,7 +149,7 @@ h6,
 }
 
 .navbar-dark .navbar-brand h1 {
-    color: #FFFFFF;
+    color: #000;
 }
 
 .navbar-dark .navbar-toggler {
@@ -172,7 +172,7 @@ h6,
 
     .navbar-dark .navbar-brand h1 {
         /* color: var(--primary); */
-        color: #272C61;
+        color: #272C61 !important;
     }
 }
 
@@ -585,7 +585,7 @@ h6,
 }
 
 .nav-link.active {
-    color:#000
+    color:#000;
 }
 
 .card-body {
@@ -595,3 +595,108 @@ h6,
     min-height:424px;
     max-height:424px;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+}
+
+.nav-link.active {
+    color:#272c61;
+}
+
+
+/*====================================================
+                       CLIENT
+======================================================*/
+
+#client {
+    padding-bottom: 100px;
+    background: #f0f0f0;
+}
+
+.client-cont {
+    width: 400px;
+    padding: 30px;
+    background: #fff;
+    margin: 0 auto;
+    border-bottom: 5px solid #2196F3;
+}
+
+.client-cont img {
+    height: 90px;
+    width: 90px;
+    margin-right: 35px;
+    border-radius: 50%;
+    float: left;
+}
+
+.client-cont h5 {
+    padding-top: 10px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.client-cont h6 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.client-cont i {
+    font-size: 20px;
+    color: #666;
+}
+
+.client-cont p {
+    width: 400px;
+    padding: 5px 30px;
+}
+
+@media (max-width: 991px) {
+.client-cont {
+    width: 330px;
+    padding: 30px;
+    background: #fff;
+    margin: 0 auto;
+}
+    .client-cont p {
+        width: 320px;
+        padding: 5px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .client-cont {
+        width: 100%;
+        padding: 30px;
+        background: #fff;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .client-cont p {
+        width: 100%;
+        padding: 5px 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    h5 {
+        color: #2196f3;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}
+
+/*====================================================
+                   TESTIMONIALS-P2
+======================================================*/
+.testimonials-p2{
+    padding: 0px 0 100px 0;
+}
+
+.testimonials-p2 .client-cont{
+    margin-top: 100px;
+    border-bottom: 5px solid #2196F3;
+}
+

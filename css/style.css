@@ -852,9 +852,9 @@ blockquote{
     margin:50px auto;
     font-family:Open Sans;
     font-style:italic;
-    color: #555555;
+    color: #fff;
     padding:1.2em 30px 1.2em 75px;
-    border-left:8px solid #78C0A8 ;
+    border-left:8px solid #ffffff ;
     line-height:1.6;
     position: relative;
     background:#EDEDED;
@@ -863,7 +863,7 @@ blockquote{
   blockquote::before{
     font-family:Arial;
     content: "\201C";
-    color:#78C0A8;
+    color:#ffffff;
     font-size:4em;
     position: absolute;
     left: 10px;
@@ -876,7 +876,7 @@ blockquote{
   
   blockquote span{
     display:block;
-    color:#333333;
+    color:#fff;
     font-style: normal;
     font-weight: bold;
     margin-top:1em;
@@ -1037,6 +1037,28 @@ blockquote{
   .image:hover img {
     transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+  }
+
+  /* .header {
+    height:100px;
+    background:
+      /*Top part*/
+      linear-gradient(#000,#000) top/100% 50%,
+      /*Bottom part*/
+      linear-gradient(to top right,transparent 49%,#000 50.5%) bottom center/100px 50%,
+      linear-gradient(#000,#000) bottom right/calc(50% - 50px) 50%;
+     background-repeat:no-repeat;
+  } */
+
+  .one {
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+    min-height: 200px;
+  }
+  .two {
+    background-color: #34ADFF;
+    background-image: -webkit-linear-gradient(150deg, #34ADFF 35%, #4CBFFF 35%);
+    min-height: 400px;
   }
 
 /* custom css end */

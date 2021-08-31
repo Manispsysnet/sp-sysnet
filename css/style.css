@@ -587,10 +587,13 @@ h6,
     padding: 1rem 1rem;
 }
 
+.list-unstyled li {
+        border-bottom: 0.5px solid rgb(184, 182, 182);
+}
+
 .dropdown-item:hover {
     color: #fff;
     background: #272c61;
-    border: 1px solid grey;
 }
 
 .navbar {

@@ -753,6 +753,135 @@ h6,
     background-size: cover;
 }
 
+/*====================================================
+                      WHAT WE DO
+======================================================*/
+
+.what-we-do {
+    padding: 110px 0;
+}
+
+.what-we-do h3 {
+    padding-top: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.what-we-do .heading-border-light {
+    background-color: #000;
+}
+
+.what-we-do p {
+    color: #000;
+}
+
+.what-we-desc {
+    padding: 20px;
+    color: #000;
+}
+
+.what-we-desc i {
+    float: left;
+    font-size: 35px;
+    margin-right: 20px;
+    height: 95px;
+    line-height: 45px;
+}
+
+.what-we-desc h6 {
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.what-we-desc p {
+    font-size: 14px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .what-we-desc i {
+        float: left;
+        font-size: 35px;
+        margin-right: 20px;
+        height: 125px;
+        line-height: 45px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .what-we-do {
+        padding: 110px 50px;
+    }
+
+    .what-we-do .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%!important;
+    }
+}
+
+@media (max-width: 575px) {
+    .what-we-do .col-sm-6 {
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%!important;
+        margin: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .what-we-do .col-sm-6 {
+        -ms-flex: 0 0 95%;
+        flex: 0 0 95%;
+        max-width: 95%!important;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1600px) {
+    .what-we-desc p {
+        font-size: 15px;
+    }
+}
+
+/* blockquote start */
+blockquote{
+    font-size: 1.4em;
+    width:60%;
+    margin:50px auto;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #78C0A8 ;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+  }
+  
+  blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#78C0A8;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+  
+  blockquote::after{
+    content: '';
+  }
+  
+  blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+  }
+  /* blockquote end */
 
 /* custom css end */
 

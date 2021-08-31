@@ -587,8 +587,8 @@ h6,
     padding: 1rem 1rem;
 }
 
-.list-unstyled li {
-        border-bottom: 0.5px solid rgb(184, 182, 182);
+.border-bottom {
+    border-bottom: 0.5px solid rgb(184, 182, 182);
 }
 
 .dropdown-item:hover {

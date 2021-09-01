@@ -1109,6 +1109,10 @@ blockquote{
 .honeycomb-cell__image {
     object-fit: cover;
     object-position: center;
+    padding-top: 5rem;
+    padding: 2rem;
+    width: 250px;
+    font-size: 0.9rem;
 }
 .honeycomb-cell::before, .honeycomb-cell::after {
     content: '';
@@ -1128,8 +1132,7 @@ blockquote{
     transform: scale(1.055);
 }
 .honeycomb-cell::after {
-    /* background: #272c61; */
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background: #272c61;
     opacity: 100%;
     transition: opacity 350ms;
 }
@@ -1171,7 +1174,8 @@ blockquote{
     opacity: 0;
 }
 .honeycomb-cell:hover::before {
-    background: #272c61;
+    /* background: #272c61; */
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
 .honeycomb-cell:hover::after {
     opacity: 0;

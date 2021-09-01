@@ -1098,12 +1098,12 @@ blockquote{
     word-break: break-word;
     text-transform: uppercase;
     color: #fff;
-    font-weight: 300;
-    font-size: 1em;
+    font-weight: 600;
+    font-size: 1.3em;
     transition: opacity 350ms;
 }
 .honeycomb-cell__title > small {
-    font-weight: 300;
+    font-weight: 600;
     margin-top: 0.25em;
 }
 .honeycomb-cell__image {

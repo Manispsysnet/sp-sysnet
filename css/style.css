@@ -1191,7 +1191,7 @@ footer {
 
 .square {
 	width: 300px;
-	height: 350px;
+	height: 500px;
 	position: relative;
 	float: left;
 }
@@ -1206,10 +1206,18 @@ footer {
     .square {
         margin-left: 10px;
     }
+
+    .mt-7 {
+        margin-top: 7rem;
+    }
 }
 @media (min-width: 550px) and (max-width: 825px) {
     .square {
         margin-left: 13px;
+    }
+
+    .mt-7 {
+        margin-top: 7rem;
     }
 }
 
@@ -1217,6 +1225,10 @@ footer {
     .square {
         margin-left: 13px;
     }
+
+    .mt-7 {
+    margin-top: 7rem;
+}
 }
 
 @media (min-width: 1100px) {
@@ -1304,6 +1316,7 @@ footer {
     bottom: 3px;
     position: absolute;
   }
+
 
 /* custom css end */
 

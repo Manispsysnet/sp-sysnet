@@ -1312,6 +1312,10 @@ footer {
     position: absolute;
   }
 
+  div.l1 {
+    line-height: 2.2;
+  }
+
 /* custom css end */
 
 

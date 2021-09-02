@@ -1111,7 +1111,7 @@ blockquote{
 
 
   /* flexbox */
-  .flexbox {
+  /* .flexbox {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -1140,7 +1140,7 @@ blockquote{
 }
 
 .flextop:before {content: '';width: 1px;height: 600px;background: #0575E6;position: absolute;left: 0;/* border-radius: 64px; */}
-
+/* 
 .flextop:after {
     content: '';
     width: 1px;
@@ -1179,7 +1179,7 @@ footer {
     display: flex;
     justify-content: center;
     margin: 50px;
-}
+} */
 /* flexboxs-end */
 
 
@@ -1194,6 +1194,35 @@ footer {
 	height: 350px;
 	position: relative;
 	float: left;
+}
+
+@media (max-width: 540px) {
+    .square {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .square {
+        margin-left: 10px;
+    }
+}
+@media (min-width: 550px) and (max-width: 825px) {
+    .square {
+        margin-left: 13px;
+    }
+}
+
+@media (min-width: 825px) and (max-width: 1100px) {
+    .square {
+        margin-left: 13px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .square {
+        margin-left: 35px;
+    }
 }
 
 /* .square:nth-child(2n) {

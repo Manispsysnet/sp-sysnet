@@ -1243,7 +1243,7 @@ footer {
 } */
 
 .square {
-	background-color: #1d2ab4;
+	background-color: #13a8da;
 	box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1) inset;
 }
 
@@ -1256,6 +1256,7 @@ footer {
     padding: 0 20px;
     color: #FFFFFF;
     text-align: center;
+    shape-outside: polygon(10px, 20px, 30px, 40px);
 }
 
 .square:nth-child(2n+1) p.text {
@@ -1272,18 +1273,18 @@ footer {
 	position: absolute;
 	top: 80px;
     line-height: 0;
-	border-color: transparent transparent transparent #3f4bcf;
+	border-color: transparent transparent transparent #00B4DB;
 	z-index: 10;
 	left: 300px;
 }
 
 .square:nth-child(2n+1) .triagle {
-	border-color: transparent transparent transparent #3f4bcf;
+	border-color: transparent transparent transparent #00B4DB;
 }
 
 .circle1 {
     background-color: #eed;
-    border: 15px solid #727cf0;
+    border: 15px solid #00B4DB;
     border-radius: 100px;
     height: 100px;
     width: 100px;

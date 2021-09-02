@@ -1016,6 +1016,8 @@ blockquote{
     background: #272c61;
     opacity: 100%;
     transition: opacity 350ms;
+    background-image: linear-gradient(to right,#3a6073, #3a7bd5);
+    /* transform: scale(1.055); */
 }
 
 

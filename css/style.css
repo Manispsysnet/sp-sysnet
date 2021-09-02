@@ -1202,7 +1202,7 @@ footer {
 } */
 
 .square {
-	background-color: #73B55E;
+	background-color: #1d2ab4;
 	box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1) inset;
 }
 
@@ -1220,7 +1220,7 @@ footer {
 .square:nth-child(2n+1) p.text {
 	color: #F2F2F2;
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
 }
 
 .triagle {
@@ -1231,18 +1231,18 @@ footer {
 	position: absolute;
 	top: 80px;
     line-height: 0;
-	border-color: transparent transparent transparent #C5DB54;
+	border-color: transparent transparent transparent #3f4bcf;
 	z-index: 10;
 	left: 300px;
 }
 
 .square:nth-child(2n+1) .triagle {
-	border-color: transparent transparent transparent #73B55E;
+	border-color: transparent transparent transparent #3f4bcf;
 }
 
 .circle1 {
     background-color: #eed;
-    border: 15px solid #73B55E;
+    border: 15px solid #727cf0;
     border-radius: 100px;
     height: 100px;
     width: 100px;
@@ -1271,7 +1271,7 @@ footer {
 
   .circle1 p span {
     font: 700 35px/50px Roboto;
-    color: #A6A6A6;
+    color: #585757;
     bottom: 3px;
     position: absolute;
   }

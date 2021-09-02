@@ -1191,7 +1191,7 @@ footer {
 
 .square {
 	width: 300px;
-	height: 500px;
+	height: 550px;
 	position: relative;
 	float: left;
 }
@@ -1261,7 +1261,7 @@ footer {
 .square:nth-child(2n+1) p.text {
 	color: #F2F2F2;
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
 }
 
 .triagle {

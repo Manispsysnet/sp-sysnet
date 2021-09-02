@@ -1137,14 +1137,16 @@ blockquote{
      background-repeat:no-repeat;
   } */
 
-  /* .one {
-    background-color: #013A6B;
-    background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+   .one {
+    /* background-color: #f8f1b8cb; */
+    background-color: #fcf1d1fc;
+    /* background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%); */
     min-height: 200px;
   }
   .two {
-    background-color: #34ADFF;
-    background-image: -webkit-linear-gradient(150deg, #34ADFF 35%, #4CBFFF 35%);
+    /* background-color: #34ADFF; */
+    background-color: #FCF0C8;
+    /* background-image: -webkit-linear-gradient(150deg, #34ADFF 35%, #4CBFFF 35%); */
     min-height: 400px;
   } */
 

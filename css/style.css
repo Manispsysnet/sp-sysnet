@@ -1211,24 +1211,16 @@ footer {
         margin-top: 7rem;
     }
 }
-@media (min-width: 550px) and (max-width: 825px) {
+@media (min-width: 550px) and (max-width: 767px) {
     .square {
         margin-left: 13px;
     }
-
-    .mt-7 {
-        margin-top: 7rem;
-    }
 }
 
-@media (min-width: 825px) and (max-width: 1100px) {
+@media (min-width: 768px) and (max-width: 1100px) {
     .square {
         margin-left: 13px;
     }
-
-    .mt-7 {
-    margin-top: 7rem;
-}
 }
 
 @media (min-width: 1100px) {
@@ -1252,12 +1244,14 @@ footer {
 }
 
 .square p.text {
-    font: 400 18px/18px Roboto;
+    font: 400 18px/18px Rubik;
     padding: 0 20px;
     color: #FFFFFF;
     text-align: center;
     shape-outside: polygon(10px, 20px, 30px, 40px);
+    line-height: 1;
 }
+
 
 .square:nth-child(2n+1) p.text {
 	color: #F2F2F2;
@@ -1312,12 +1306,11 @@ footer {
  }
 
   .circle1 p span {
-    font: 700 40px/50px Roboto;
+    font: 700 40px/50px Rubik;
     color: #585757;
     bottom: 3px;
     position: absolute;
   }
-
 
 /* custom css end */
 

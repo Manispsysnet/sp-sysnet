@@ -1015,7 +1015,7 @@ blockquote{
     hyphens: auto;
     word-break: break-word;
     text-transform: uppercase;
-    color: #fff;
+    color: #FCF0C8;
     font-weight: 600;
     font-size: 1.1em;
     transition: opacity 350ms;
@@ -1046,14 +1046,14 @@ blockquote{
     z-index: -1;
 }
 .honeycomb-cell::before {
-    background-image: linear-gradient(to right, #3a7bd5, #3a6073);
+    background-image: linear-gradient(to right, #26a0da, #314755);
     transform: scale(1.055);
 }
 .honeycomb-cell::after {
     background: #272c61;
     opacity: 100%;
     transition: opacity 350ms;
-    background-image: linear-gradient(to right,#3a6073, #3a7bd5);
+    background-image: linear-gradient(to right,#314755, #26a0da);
     /* transform: scale(1.055); */
 }
 

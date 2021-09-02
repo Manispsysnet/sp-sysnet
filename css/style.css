@@ -1009,7 +1009,7 @@ blockquote{
     z-index: -1;
 }
 .honeycomb-cell::before {
-    background: rgb(11, 194, 226);
+    background-image: linear-gradient(to right, #3a7bd5, #3a6073);
     transform: scale(1.055);
 }
 .honeycomb-cell::after {

@@ -845,6 +845,42 @@ h6,
 }
 
 /* blockquote start */
+/* @media (min-width: 992px) and (max-width: 1199px) {
+    .what-we-desc i {
+        float: left;
+        font-size: 35px;
+        margin-right: 20px;
+        height: 125px;
+        line-height: 45px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    blockquote{
+        font-size: 1em;
+        width:60%;
+        min-height: 200px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    blockquote{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 411px) {
+    blockquote{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1600px) {
+    blockquote{
+        width:60%;
+    }
+} */
+
 blockquote{
     font-size: 1.4em;
     width:60%;
@@ -946,7 +982,7 @@ blockquote{
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
   }
 
-  /* honeycomb layout start */
+  /* ----------------------honeycomb layout start -----------------------*/
 
   .honeycomb {
     display: flex;
@@ -958,6 +994,7 @@ blockquote{
     margin: 0 auto;
     padding: 0;
     transform: translateY(34.375px);
+    
 }
 
 .honeycomb-cell {
@@ -1087,7 +1124,7 @@ blockquote{
    }
 }
 
-/* honeycomb layout end */
+/*-------------------- honeycomb layout end --------------------- */
 
 /* .header {
     height:100px;
@@ -1184,7 +1221,7 @@ footer {
 } */
 /* flexboxs-end */
 
-
+/* ------------------------- Square layout start -------------- */
 .wrapper {
 	margin: 0 auto;
 	width: 1200px;
@@ -1317,6 +1354,8 @@ footer {
   div.l1 {
     line-height: 2.2;
   }
+
+  /* -------------- square layout end ---------------- */
 
 /* custom css end */
 

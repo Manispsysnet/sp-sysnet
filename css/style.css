@@ -971,13 +971,15 @@ blockquote{
     transform-style: preserve-3d;
     width: 90%;
   }
+  
   .image img {
-    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 85px);
+    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-100px, 0px, 98px);
     box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
     transition: all .4s;
     transform-style: preserve-3d;
     z-index: -1;
   }
+
   .image:hover img {
     transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);

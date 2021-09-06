@@ -1001,6 +1001,16 @@ blockquote{
    }
 }
 
+.image img {
+    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-100px, 0px, 98px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+
+
+
 /* @media (min-width: 768px) and (max-width: 1023px) {
     .image {
         perspective: 4000px;
@@ -1024,14 +1034,7 @@ blockquote{
        }
 } */
   
-  .image img {
-    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-100px, 0px, 98px);
-    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
-    transition: all .2s;
-    transform-style: preserve-3d;
-    z-index: -1;
-  }
-
+  
 
   /* ----------------------honeycomb layout start -----------------------*/
 

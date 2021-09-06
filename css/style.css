@@ -1,4 +1,9 @@
 /********** Template CSS **********/
+.thick {
+    font-weight: 545;
+    color: rgb(59, 59, 59);
+}
+
 :root {
     --primary: #06A3DA;
     --secondary: #34AD54;

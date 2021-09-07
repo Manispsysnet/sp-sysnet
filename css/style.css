@@ -1339,7 +1339,7 @@ footer {
 
 .square {
 	background-color: #13a8da;
-	box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1) inset;
+	/* box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1) inset; */
 }
 
 .square:first-child {

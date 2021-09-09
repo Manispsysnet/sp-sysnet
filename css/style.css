@@ -4,6 +4,14 @@
     color: rgb(59, 59, 59);
 }
 
+.bg-gray {
+    width: 282px; 
+    display: block; 
+    text-align:center; 
+    background:url(images/h3-bg.jpg) repeat-x 0 50px #d3d3d3; 
+    padding:15px 0;
+}
+
 :root {
     --primary: #06A3DA;
     --secondary: #34AD54;

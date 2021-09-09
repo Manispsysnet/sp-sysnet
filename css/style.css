@@ -510,6 +510,30 @@ h6,
 }
 
 /* custom css start */
+
+.blue {
+    color: #06A3DA;
+}
+
+.fs-red {
+    width: 700px; 
+    font-size: 13.2px;
+}
+
+.fs-red1 {
+    width: 700px; 
+    font-size: 15px;
+}
+
+.red {
+    color:#c60b6d;
+}
+
+.red:hover {
+    color:#c60b6d;
+    text-decoration: underline;
+}
+
 .title {
     font-size: 1.2rem;
     font-weight: bold;

@@ -513,8 +513,8 @@ h6,
 .tabsdiv {
     width: 100%;
     float: left;
-    margin-top: 15px;
-    border: 1px solid #04639d;
+    margin-top: 2px;
+    /* border: 1px solid #04639d; */
 }
 
 .blue {

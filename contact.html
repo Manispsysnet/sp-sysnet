@@ -680,22 +680,27 @@
                 <div class="col-lg-12 wow slideInUp" data-wow-delay="0.6s">
                     <ul class="nav nav-tabs">
                         <li class="nav-item">
-                          <a class="nav-link" aria-current="page" href="#singapore">Singapore</a>
+                          <a class="nav-link" aria-current="page" href="#tab1">Singapore</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#india">India</a>
+                          <a class="nav-link" id="tab32" href="#tab2">India</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#hongkong">Hong Kong</a>
+                          <a class="nav-link" id="tab31" href="#tab3">Hong Kong</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Japan</a>
+                          <a class="nav-link" id="tab31" href="#tab4">Japan</a>
                         </li>
                       </ul>
-                    <iframe id="singapore" class="position-relative rounded w-100 h-100"
+                      <div id="tab1" class="tabsdiv"><iframe src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=SINGAPORE+%E2%80%93+408868&amp;aq=&amp;sll=1.332696,103.893375&amp;sspn=0.055775,0.08935&amp;ie=UTF8&amp;hq=&amp;hnear=Singapore+408868&amp;t=m&amp;ll=1.34184,103.897963&amp;spn=0.025742,0.057421&amp;z=14&amp;iwloc=A&amp;output=embed" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<div id="tab2" class="tabsdiv"></div>
+<div id="tab3" class="tabsdiv"><iframe src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Grande+Bldg%2C+398-402+Kwun+Tong+Rd%2C+Kwun+Tong%2C+Hong+Kong&amp;aq=&amp;sll=1.332696,103.893375&amp;sspn=0.055775,0.08935&amp;ie=UTF8&amp;hq=&amp;hnear=Grande+Bldg%2C+398-402+Kwun+Tong+Rd%2C+Kwun+Tong%2C+Hong+Kong&amp;t=m&amp;ll=1.34184,103.897963&amp;spn=0.025742,0.057421&amp;z=14&amp;iwloc=A&amp;output=embed" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<div id="tab4" class="tabsdiv"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5452.6860776088115!2d139.787730959628!3d35.647775462019716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188997aa555555%3A0xda1bc9c30c2e824a!2sTepco!5e0!3m2!1sen!2sin!4v1520915728373" width="100%" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+                      <!-- <div id="map" class="position-relative" style="width: 100%; height: 400px;"></div> -->
+                    <!-- <iframe id="map" class="position-relative rounded w-100 h-100"
                         src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=SINGAPORE+%E2%80%93+408868&amp;aq=&amp;sll=1.332696,103.893375&amp;sspn=0.055775,0.08935&amp;ie=UTF8&amp;hq=&amp;hnear=Singapore+408868&amp;t=m&amp;ll=1.34184,103.897963&amp;spn=0.025742,0.057421&amp;z=14&amp;iwloc=A&amp;output=embed"
                         frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+                        tabindex="0"></iframe> -->
                 </div>
             </div>
         </div>
@@ -866,6 +871,129 @@
         })
     }); 
     // DOMContentLoaded  end
+</script>
+<!-- <script>
+    function initialize() {
+       var locations = [
+           ['<strong>Laser Battle IPOH</strong> <br/>' +'IPOH Parade<br/>'+'Jalan Sultan, Abdul Jalil<br/>'+'Ipoh Perak<br/>'+ 'PH: +60 5-255 9887 ', 1.3335971476343056, 103.89431313473179, 3],
+           ['<strong>Laser Battle (JOHOR)</strong> <br/>'+'Johor Bahru <br/>' + 'PH: +60 7-207 0179', 22.31497466726856, 114.21766295448474, 2],
+         ['<strong>Laser Battle (JOHOR)</strong> <br/>'+'Johor Bahru <br/>' + 'PH: +60 7-207 0179', 1.495659,103.751359, 1]
+           
+       ];
+   
+       window.map = new google.maps.Map(document.getElementById('map'), {
+           mapTypeId: google.maps.MapTypeId.ROADMAP
+       });
+   
+       var infowindow = new google.maps.InfoWindow();
+   
+       var bounds = new google.maps.LatLngBounds();
+   
+       for (i = 0; i < locations.length; i++) {
+           marker = new google.maps.Marker({
+               position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+               map: map
+           });
+   
+           bounds.extend(marker.position);
+   
+           google.maps.event.addListener(marker, 'click', (function (marker, i) {
+               return function () {
+                   infowindow.setContent(locations[i][0]);
+                   infowindow.open(map, marker);
+               }
+           })(marker, i));
+       }
+   
+       map.fitBounds(bounds);
+   
+       var listener = google.maps.event.addListener(map, "idle", function () {
+           map.setZoom(2);
+           google.maps.event.removeListener(listener);
+       });
+   }
+   
+   function loadScript() {
+       var script = document.createElement('script');
+       script.type = 'text/javascript';
+       script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+       document.body.appendChild(script);
+   }
+   
+   window.onload = loadScript;
+</script> -->
+<script type="text/javascript">
+    $(function() {
+
+        $("#tab31").click(function(event1) {
+
+            event1.preventDefault();
+
+
+
+            $("#tab3").html('<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3691.0656071429526!2d114.2228666!3d22.3133584!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404014f15b22877%3A0x66e007af856fe6e!2sGrande+Bldg%2C+398-402+Kwun+Tong+Rd%2C+Kwun+Tong%2C+Hong+Kong!5e0!3m2!1sen!2sin!4v1417868402028" width="630" height="300" frameborder="0" style="border:0"></iframe>').css('display', 'block');
+
+        });
+
+    });
+</script>
+
+<script>
+    $(function() {
+
+        $("#tab32").click(function(event) {
+
+            event.preventDefault();
+
+
+
+            $("#tab2").html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15082.466819417537!2d72.8640262000004!3d19.080582795877547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8f77b688c39%3A0x178b2e89cac93e01!2s87%2C+Old+CST+Rd%2C+Kalina%2C+Santacruz+East%2C+Mumbai%2C+Maharashtra+400029!5e0!3m2!1sen!2sin!4v1418032445860" width="670" height="300" frameborder="0" style="border:0"></iframe>').css('display', 'block');
+
+        });
+
+    });
+</script>
+<script type='text/javascript'>
+    jQuery(document).ready(function() {
+
+
+
+        jQuery("#dropmenu ul").css({
+            display: "none"
+        }); // Opera Fix
+
+
+
+        jQuery("#dropmenu li").hover(function() {
+
+
+
+            jQuery(this).find('ul:first').css({
+                visibility: "visible",
+                display: "none"
+            }).show(268);
+
+
+
+        }, function() {
+
+
+
+            jQuery(this).find('ul:first').css({
+                visibility: "hidden"
+            });
+
+
+
+            $("#dropmenu li li:has(ul)").addClass("parent");
+
+
+
+        });
+
+
+
+    });
 </script>
 </body>
 

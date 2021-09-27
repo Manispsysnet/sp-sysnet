@@ -516,7 +516,7 @@ h6,
     overflow: hidden;
   }
   
-  .pin {
+  /* .pin {
     width: 30px;
     height: 30px;
     border-radius: 50% 50% 50% 0;
@@ -850,7 +850,7 @@ h6,
       -ms-transform: translateY(0) rotate(-45deg);
       transform: translateY(0) rotate(-45deg);
     }
-  }
+  } */
 
 .tabsdiv {
     width: 100%;

@@ -1087,6 +1087,23 @@
         // Add line bullets
         var cities = chart.series.push(new am4maps.MapImageSeries());
         cities.mapImages.template.nonScaling = true;
+
+        var map = null;         
+
+         function GetMap()
+         {
+            // Initialize the map
+            map = new Microsoft.Maps.Map(document.getElementById("myMap"),
+            {credentials:"Ao8E3Nx8O0JkzoD7wvQc4LwoA2OuMXACZXYv2SxR8xxmiohl_n3-YexqN9MmUv6_"}); 
+
+            // Retrieve the location of the map center 
+            var center = map.getCenter();
+            
+            // Add a pin to the center of the map, using a custom icon
+            var pin = new Microsoft.Maps.Pushpin(center, {icon: 'http://icons.iconarchive.com/icons/pelfusion/long-shadow-media/24/Maps-Pin-Place-icon.png', width: 50, height: 50, draggable: true}); 
+
+            map.entities.push(pin);
+         }
         
         var city = cities.mapImages.template.createChild(am4core.Circle);
         city.radius = 6;

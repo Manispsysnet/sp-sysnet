@@ -4,6 +4,12 @@
     color: rgb(59, 59, 59);
 }
 
+.thick_1 {
+    font-size: 16px;
+    font-weight: 545;
+    color: rgb(59, 59, 59);
+}
+
 .bg-gray {
     width: 282px; 
     display: block; 

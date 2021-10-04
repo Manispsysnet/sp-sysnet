@@ -1,23 +1,4 @@
 /********** Template CSS **********/
-.thick {
-    font-weight: 545;
-    color: rgb(59, 59, 59);
-}
-
-.thick_1 {
-    font-size: 16px;
-    font-weight: 545;
-    color: rgb(59, 59, 59);
-}
-
-.bg-gray {
-    width: 282px; 
-    display: block; 
-    text-align:center; 
-    background:#d3d3d3; 
-    padding:15px 0;
-}
-
 :root {
     --primary: #06A3DA;
     --secondary: #34AD54;
@@ -516,6 +497,29 @@ h6,
 }
 
 /* custom css start */
+.thick {
+    font-weight: 545;
+    color: rgb(59, 59, 59);
+}
+
+.thick_1 {
+    font-size: 16px;
+    font-weight: 545;
+    color: rgb(59, 59, 59);
+}
+
+/* .blue {
+    color:#;
+} */
+
+.bg-gray {
+    width: 282px; 
+    display: block; 
+    text-align:center; 
+    background:#d3d3d3; 
+    padding:15px 0;
+}
+
 .hr{
     border-top: 1px dashed #fff;
   }

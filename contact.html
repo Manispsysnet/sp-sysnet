@@ -1072,6 +1072,9 @@
         chart.geodata = am4geodata_worldLow;
         chart.projection = new am4maps.projections.Miller();
         chart.homeZoomLevel = 1;
+        chart.maxZoomLevel = 1;
+        chart.seriesContainer.draggable = false;
+        chart.seriesContainer.resizable = false;
         chart.homeGeoPoint = {
             latitude: 25,
             longitude: -2

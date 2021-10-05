@@ -987,7 +987,7 @@
         var center = map.getCenter();
         
         // Add a pin to the center of the map, using a custom icon
-        var pin = new Microsoft.Maps.Pushpin(center, {icon: 'http://icons.iconarchive.com/icons/pelfusion/long-shadow-media/24/Maps-Pin-Place-icon.png', width: 30, height: 30, draggable: true}); 
+        var pin = new Microsoft.Maps.Pushpin(center, {icon: 'http://icons.iconarchive.com/icons/pelfusion/long-shadow-media/24/Maps-Pin-Place-icon.png', width: 50, height: 50, draggable: true}); 
 
         map.entities.push(pin);
      }
@@ -997,7 +997,7 @@
     city.fill = chart.colors.getIndex(0).brighten(-0.2);
     city.strokeWidth = 2;
     city.stroke = am4core.color("#272c61");
-    city.scale = 0.5;
+    city.scale = 0.4;
     
     function addCity(coords, title) {
         var city = cities.mapImages.create();
@@ -1007,14 +1007,14 @@
         return city;
     }
     
-    var Singapore = addCity({ "latitude": 1.332696, "longitude": 103.893375 }, "Singapore");
-    var Hongkong = addCity({ "latitude": 22.318020, "longitude": 114.215460 }, "Hong Kong");
-    var India = addCity({ "latitude": 19.111250, "longitude": 72.853970 }, "India");
-    var Japan = addCity({ "latitude": 35.689532, "longitude": 139.712837 }, "Japan");
-    var Korea = addCity({ "latitude": 35.110603, "longitude": 129.037676 }, "Korea");
-    var Taiwan = addCity({ "latitude": 24.994160, "longitude": 121.460980 }, "Taiwan");
-    var Australia = addCity({ "latitude": -33.872540236091886, "longitude": 151.092908453968 }, "Australia");
-    var UK = addCity({ "latitude": 51.51504722788067, "longitude": -0.12360565935777981 }, "UK");
+    var Singapore = addCity({ "latitude": 1.332696, "longitude": 103.893375 }, "No 33, Ubi Avenue 3,\n#03-15, Vertex,\nSingapore - 408868");
+    var Hongkong = addCity({ "latitude": 22.318020, "longitude": 114.215460 }, "Room 902 & 905, 9/F,\nTung Lee Industrial Building,\n9 Lai Yip Street,\nNgau Tau Kok, Kowloon,\nHong Kong");
+    var India = addCity({ "latitude": 19.111250, "longitude": 72.853970 }, "Flat 202A,\nPrashanthi Ram Towers,\nYousufguda Main Road,\nHyderabad 500073, India");
+    var Japan = addCity({ "latitude": 35.689532, "longitude": 139.712837 }, "TEPCO Toyosu Building,\nRoom Number: 3A-3d2,\nToyosu 6-2-15, Koto-Ku,\nTokyo 135-0061,Japan");
+    var Korea = addCity({ "latitude": 35.110603, "longitude": 129.037676 }, "744, 7F Pan Ocean Building,\n102, Jungang-Daero,\nJung-gu, Busan 48938, Korea");
+    var Taiwan = addCity({ "latitude": 24.994160, "longitude": 121.460980 }, "First room on the right,\n4th Floor, No.1,\nLane 6,Heping Road,\nBanqiao District,\nNew Taipei city 220,\nTaiwan");
+    var Australia = addCity({ "latitude": -33.872540236091886, "longitude": 151.092908453968 }, "Suite 7, Level 7,\nStrathfield Plaza,\n11 The Boulevard,\nStrathfield,\nNSW 2135,Australia");
+    var UK = addCity({ "latitude": 51.51504722788067, "longitude": -0.12360565935777981 }, "71-75 Shelton Street,\nCovent Garden, London,\nWC2H 9JQ,\nNew Taipei city 220,UK");
 
     // Add lines
     var lineSeries = chart.series.push(new am4maps.MapArcSeries());

@@ -497,6 +497,13 @@ h6,
 }
 
 /* custom css start */
+@media(max-width: 991px){
+	.h-sm {
+	    max-height: 250px;
+	    min-height: 250px;
+        height: 250px;
+	}
+}
 
 .thick {
     font-weight: 545;

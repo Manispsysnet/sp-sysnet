@@ -497,6 +497,8 @@ h6,
 }
 
 /* custom css start */
+.w-90 {width:98.5% !important}
+
 @media(max-width: 991px){
 	.h-sm {
 	    max-height: 250px;
@@ -555,7 +557,6 @@ h6,
 }
 
 .fs-red1 {
-    width: 700px; 
     font-size: 15px;
 }
 

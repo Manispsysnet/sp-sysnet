@@ -497,6 +497,10 @@ h6,
 }
 
 /* custom css start */
+.subheading {
+    color:#3a81c4;
+}
+
 .videoWrapper {
 	/* position: relative; */
 	/* padding-top: 25px; */

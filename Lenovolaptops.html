@@ -30,6 +30,10 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     
 </head>
 
@@ -355,15 +359,35 @@
                             </div>
                             <div class="d-flex flex-row bd-highlight py-4 pb-0">
                                 <div class="d-flex justify-content-start rounded">
-                                    <ul class="navbar-nav justify-content-between py-0" style="flex-direction: row">
+                                    <ul class="nav nav-pills justify-content-between py-0" style="flex-direction: row" id="myTab">
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#laptops">Laptops</a>
+                                        </li>
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#tablets">Tablets</a>
+                                        </li>
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#desktops">Desktops</a>
+                                        </li>
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#workstations">Workstations</a>
+                                        </li>
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#servers">Servers</a>
+                                        </li>
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#storage">Storage</a>
+                                        </li>
+                                    </ul>
+                                    <!-- <ul class="navbar-nav justify-content-between py-0" style="flex-direction: row" id="myTab">
                                         <li style="width: 130px;">
                                             <button class="navbar-toggler" type="button">
-                                                <a class="navbar-toggler-icon" href="#">Laptops</a>
+                                                <a class="navbar-toggler-icon" href="#laptops">Laptops</a>
                                             </button>
                                         </li>
                                         <li style="width: 130px;">
                                             <button class="navbar-toggler" type="button">
-                                                <a class="navbar-toggler-icon" href="#">Tablets</a>
+                                                <a class="navbar-toggler-icon" href="#home_2">Tablets</a>
                                             </button>
                                         </li>
                                         <li style="width: 140px;">
@@ -381,12 +405,26 @@
                                                 <a class="navbar-toggler-icon" href="#">Servers</a>
                                             </button>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                             <div class="d-flex flex-row bd-highlight py-1">
                                 <div class="d-flex justify-content-start rounded">
-                                    <ul class="navbar-nav justify-content-between py-0" style="flex-direction: row">
+                                    <ul class="nav nav-pills justify-content-between py-0" style="flex-direction: row" id="myTab">
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#networking">Networking</a>
+                                        </li>
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#services">Services</a>
+                                        </li>
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#monitors">Monitors</a>
+                                        </li>
+                                        <li class="nav-item fs-5">
+                                            <a class="nav-link" href="#accessories">Accessories</a>
+                                        </li>
+                                    </ul>
+                                    <!-- <ul class="navbar-nav justify-content-between py-0" style="flex-direction: row">
                                         <li style="width: 130px;">
                                             <button class="navbar-toggler" type="button">
                                                 <a class="navbar-toggler-icon" href="#">Storage</a>
@@ -412,7 +450,7 @@
                                                 <a class="navbar-toggler-icon" href="#">Accessories</a>
                                             </button>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                              <div class="row gx-8 pb-4">
@@ -1210,7 +1248,7 @@
                                 </div>
                             </div> 
                         
-                            <div class="d-flex flex-row row pb-4 gx-5">
+                            <div class="d-flex flex-row row pb-2 gx-5">
                                 <div class="col-lg-5 col-md-4 col-sm-4 p-2">
                                     <div class="d-flex flex-column align-items-start justify-content-start">
                                         <div class="dropdown show">
@@ -1253,96 +1291,201 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo IdeaPad Miix 510-12IKB - 12.2" - Core i7 7500U - 8 GB RAM - 256 GB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="laptops">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo IdeaPad Miix 510-12IKB - 12.2" - Core i7 7500U - 8 GB RAM - 256 GB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
                                         </div>
+                                    </div>
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo ThinkPad T470 - 14" - Core i5 7200U - 8 GB RAM - 256 GB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:20HD000WUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo Yoga 710-15IKB - 15.6" - Core i5 7200U - 8 GB RAM - 256 GB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80V50010US</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo Yoga 720-13IKB - 13.3" - Core i5 7200U - 8 GB RAM - 256 GB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80X6002JUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo Yoga 720-15IKB - 15.6" - Core i7 7700HQ - 8 GB RAM - 256 GB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80X7001TUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo Yoga 720-15IKB - 15.6" - Core i7 7700HQ - 16 GB RAM - 512 GB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80X7001SUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo Yoga 710-11IKB - 11.6" - Pentium Gold 4410Y - 4 GB RAM - 128 GB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80V6001WUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo Yoga 910-13IKB - 13.9" - Core i7 7500U - 16 GB RAM - 1 TB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80VF00FRUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo Yoga 720-13IKB - 13.3" - Core i5 7200U - 4 GB RAM - 128 GB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80X60030US</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Lenovo Yoga 910-13IKB - 13.9" - Core i7 7500U - 8 GB RAM - 256 GB SSD - US</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80VF00FQUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="tablets">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Tablets</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="desktops">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Desktops</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="workstations">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>Workstations</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="servers">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>servers</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="storage">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>storage</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="networking">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>networking</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="services">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>services</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="monitors">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>monitors</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="accessories">
+                                    <div class="row gx-5 pb-4">
+                                        <div class="col-lg-8 fs-red">
+                                                <div class="text-left">
+                                                    <img src="img/" class="img-fluid mb-3" alt="">
+                                                    <h6 class="mb-3 lh-base"><b>accessories</b></h6>
+                                                    <p class="thick_1 mb-2">Mfg #:80XE002AUS</p>
+                                                </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo ThinkPad T470 - 14" - Core i5 7200U - 8 GB RAM - 256 GB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:20HD000WUS</p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo Yoga 710-15IKB - 15.6" - Core i5 7200U - 8 GB RAM - 256 GB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:80V50010US</p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo Yoga 720-13IKB - 13.3" - Core i5 7200U - 8 GB RAM - 256 GB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:80X6002JUS</p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo Yoga 720-15IKB - 15.6" - Core i7 7700HQ - 8 GB RAM - 256 GB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:80X7001TUS</p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo Yoga 720-15IKB - 15.6" - Core i7 7700HQ - 16 GB RAM - 512 GB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:80X7001SUS</p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo Yoga 710-11IKB - 11.6" - Pentium Gold 4410Y - 4 GB RAM - 128 GB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:80V6001WUS</p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo Yoga 910-13IKB - 13.9" - Core i7 7500U - 16 GB RAM - 1 TB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:80VF00FRUS</p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo Yoga 720-13IKB - 13.3" - Core i5 7200U - 4 GB RAM - 128 GB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:80X60030US</p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row gx-5 pb-4">
-                                <div class="col-lg-8 fs-red">
-                                        <div class="text-left">
-                                            <img src="img/" class="img-fluid mb-3" alt="">
-                                            <h6 class="mb-3 lh-base"><b>Lenovo Yoga 910-13IKB - 13.9" - Core i7 7500U - 8 GB RAM - 256 GB SSD - US</b></h6>
-                                            <p class="thick_1 mb-2">Mfg #:80VF00FQUS</p>
-                                        </div>
-                                </div>
-                            </div>
+                            
                             <div class="d-flex flex-row row pb-4 gx-5">
                                 <div class="col-lg-5 col-md-4 col-sm-4 p-2">
                                     <div class="d-flex flex-column align-items-start justify-content-start">
@@ -1617,6 +1760,13 @@
       return false;
     }
   });
+});
+
+$(document).ready(function(){
+    $("#myTab a").click(function(e){
+        e.preventDefault();
+        $(this).tab("show");
+    });
 });
 </script>
 </body>

@@ -93,11 +93,6 @@ h6,
 
 
 /*** Button ***/
-.accordion-button:not(.collapsed){
-    color:#000;
-    background-color:#e6f6fb;
-}
-
 .btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;

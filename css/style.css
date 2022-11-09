@@ -91,6 +91,9 @@ h6,
     font-weight: 500 !important;
 }
 
+.w-45{width:45% !important;}
+.w-30{width:30% !important;}
+
 
 /*** Button ***/
 .btn {
@@ -135,6 +138,7 @@ h6,
     padding-right: 0;
     text-align: center;
 }
+
 
 
 /*** Navbar ***/
@@ -960,6 +964,10 @@ h6,
 }
 
 @media (min-width: 1600px) {
+    .pt-120{
+        padding-top: 120px;
+    }
+
     .what-we-desc p {
         font-size: 15px;
     }

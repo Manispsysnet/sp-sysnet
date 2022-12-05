@@ -8,19 +8,6 @@
 
 body{margin:0;font-family:"Roboto",sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#6B6A75;background-color:#fff;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}
 
-.ccs-gs .ccs-gs-showcase-lenovo {
-    font-family: Lato,Helvetica,Arial,sans-serif;
-}
-div.ccs-gs *, div.ccs-gs :after, div.ccs-gs :before {
-    box-sizing: border-box;
-}
-.ccs-showcase {
-    display: block;
-    font-family: Helvetica,Arial,sans-serif;
-    max-width: 1200px;
-    margin: auto;
-    background-color: #fff;
-}
 
 /*** Spinner ***/
 .spinner {

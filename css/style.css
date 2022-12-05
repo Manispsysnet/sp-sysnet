@@ -14,7 +14,6 @@ body{margin:0;font-family:"Roboto",sans-serif;font-size:1rem;font-weight:400;lin
 div.ccs-gs *, div.ccs-gs :after, div.ccs-gs :before {
     box-sizing: border-box;
 }
-<style>
 .ccs-showcase {
     display: block;
     font-family: Helvetica,Arial,sans-serif;
